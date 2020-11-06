@@ -1,0 +1,84 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src='d3.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js'></script>
+
+    <title>Mudras of the Smithsonian</title>
+</head>
+
+
+<body>
+    <div id="tooltip"></div>
+    <div id="graphic">
+        <div id="sections">
+            <section class="step">
+                <!-- 这个title div是什么意思 -->
+                <div class="title">
+                    <br><br>
+                    <!-- not sure why I cant insert pictures to html here -->
+                    <div class="icon">
+                        <img src="data/icon/fsg.png" class="logo">
+                    </div>
+
+                    <h1>
+                        The Scroll of Mudras @ Smithsonian
+                    </h1>
+                    <div>
+                        By <a href='https://www.linkedin.com/in/qinglulu/'>(Luella) Qinglu Lu</a>
+                    </div>
+                    <p>
+                        Mudra, in Buddhism and Hinduism art, a symbolic gesture of the hands and fingers used either in sculptures and paintings. Together with four basic postures - reclining, standing, walking, and sitting, mudras tend to be numerous and complicated. Let's
+                        explore those numerous messages!
+                    </p>
+                    <p>
+                        Try hover each bubble to see the exact mudra/ full picture of the artwork. They also link to the Smithsonian collection page accordingly if you click through.
+                    </p>
+                </div>
+            </section>
+
+            <section class="step">
+                <br>
+                <h2>Mudra Groups</h2>
+                <p> Here includes 177 mudras being categorized into 12 mudras. Some of them are pretty common, such as the Abhaya mudra, while some are not that commonly seen</p>
+            </section>
+
+            <section class='step'>
+                <br>
+                <h2>Introduce Each Mudra</h2>
+                <div id="subnotification">Click on a Mudra Name to Learn More</div>
+                <svg id='legend2' width='400px' height='450px'></svg>
+                <div id='legendtext2'>
+                </div>
+            </section>
+
+
+            <section class="step">
+                <br>
+                <h2>Mudras and cultural regions</h2>
+                <div id="subnotification">click region again to see the overall distrubutions</div>
+                <p>
+                    By studying the sources of these artworks, we found that China is the largest source, followed by Japan and India and other countries with relatively deep Buddhist traditions. There is not enough evidence to show that the preference for mudras in Buddhist
+                    art has regional characteristics. Although we see obvious groups in the Smithsonian collection, more data samples are needed.
+                </p>
+                <!-- <div id='legendtext3'>click on a mudra to learn more</div> -->
+                <svg id='legend3' width='400px' height='450px'></svg>
+            </section>
+
+            <section class="step">
+                <h1>The End</h1>
+                <p>
+                    This time only part of the mudra collections are included in this data visualizaiton project. But the actual mudra collections are much more than the 177 cases come after keyword searching. I believe that the current results can give a glimpse of the mudra collection.At the same time, I also saw the possibility of continuous research on Mudra.
+                </p>
+            </section>
+        </div>
+        <div id="vis"></div>
+    </div>
+    <script src='scroller.js'></script>
+    <script src='sections.js'></script>
+</body>
+
+</html>
