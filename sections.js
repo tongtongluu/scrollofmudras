@@ -775,7 +775,7 @@ function draw4() {
                     text = 'The Vitarka mudrā "mudra of discussion" is the gesture of discussion and transmission of Buddhist teaching. It is done by joining the tips of the thumb and the index together, and keeping the other fingers straight very much like the abhaya and varada mudrās but with the thumbs touching the index fingers.';
                     break;
                 case 'dhyana':
-                    text = 'Also called the meditation mudra",iis the gesture of meditation, of the concentration of the Good Law and the sangha. The two hands are placed on the lap, left hand on right with fingers fully stretched (four fingers resting on each other and the thumbs facing upwards towards one another diagonally), palms facing upwards; in this manner, the hands and fingers form the shape of a triangle, which is symbolic of the spiritual fire';
+                    text = '';
                     break;
                 case 'dharmachakra':
                     text = '';
